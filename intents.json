@@ -1,0 +1,43 @@
+{"intents":[
+    {
+        "tag": "greetings",
+        "patterns": ["hello","hey","hi","hii","bonjour","whats up?","hey there","how you doing?"],
+        "responses":["hey!","hey there","what can i do for you?"]
+    },
+    {
+        "tag":"casual",
+        "patterns":["hey how you doing?"],
+        "responses":["Great !","great buddy","great how you doing"]
+    },
+    {
+        "tag":"happy",
+        "patterns":["great bro","awesome","amazing","so good","so perfect"],
+        "responses":["haha thanks","Glad you liked!","Thanks :)"]
+    },
+    {
+        "tag":"goodbye",
+        "patterns":["bye","see ya","goodbye","gtg","i m leaving","have a good day","see you later"],
+        "responses":["Bye Have a great day","Goodbye!"]
+    },
+    {
+        "tag":"age",
+        "patterns":["how old are you","what is you age","how old","age?","your age?"],
+        "responses":["21 years!","as old as you are","I m 24","what's in age? ;)"]
+    },
+    {
+        "tag":"name",
+        "patterns":["what is you age","whats your name?","who are you?","can you tell me your name?"],
+        "responses":["hey i m Bot","you can call me botv2"]
+    },
+    {
+        "tag":"shop",
+        "patterns":["what are you products","what you selling","what you recommend"],
+        "responses":["we dont have any stock left currently due to covid ","we sell books","I recommend The C programing language by Dennis richie"]
+    },
+    {
+        "tag":"hours",
+        "patterns":["when's the stock comming","what are your shop hours","hours of opening"],
+        "responses":["stocks comming probably after lockdown rules eases","24/7"]
+    }
+]
+}
